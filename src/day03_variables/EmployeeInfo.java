@@ -4,7 +4,7 @@ public class EmployeeInfo {
 
     public static void main(String[] args) {
 
-        String Name = "Laziz";
+        String Name = "Lazizbek";
         int age = 39;
         char gender = 'M';
         String companyName = "Apple inc";
