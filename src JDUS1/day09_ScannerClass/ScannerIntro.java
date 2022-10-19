@@ -2,7 +2,7 @@ package day09_ScannerClass;
 
 import java.util.Scanner;
 
-public class scannerIntro {
+public class ScannerIntro {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
