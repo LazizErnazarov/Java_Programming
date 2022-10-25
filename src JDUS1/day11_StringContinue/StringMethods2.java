@@ -16,7 +16,7 @@ public class StringMethods2 {
 
         // word = word.replace('a' , 'e');  //"jeve"
 
-        word.replace("a", "e");
+        word = word.replace("a", "e");
 
         System.out.println(word);
 
