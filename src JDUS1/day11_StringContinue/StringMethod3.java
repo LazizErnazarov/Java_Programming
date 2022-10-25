@@ -1,5 +1,7 @@
 package day11_StringContinue;
 
+import java.util.Locale;
+
 public class StringMethod3 {
 
     public static void main(String[] args) {
@@ -39,6 +41,57 @@ public class StringMethod3 {
         System.out.println(st1.equals(st2));
 
         System.out.println(st1.equalsIgnoreCase(st2));
+        
+        
+        //-------------------------------------
+        
+        String students = "Hasan Naran Sumeye Natalia";
+        
+        boolean hasAhmed = students.contains("Ahmed");
+
+        System.out.println("hasAhmed = " + hasAhmed);
+
+        String sentence = "My favorite programming language is Java";
+
+        boolean hasJava = sentence.toUpperCase().contains("JAVA");
+
+        System.out.println("hasJava = " + hasJava);
+        
+        //------------------------------------
+
+        String name = "Micheal";
+
+        boolean l =  name.startsWith("Da");
+
+        System.out.println(l);
+
+        String url = "www.cydeo.com";
+
+        boolean isValid = url.startsWith("www.");
+
+        System.out.println(isValid);
+
+
+        boolean t = url.endsWith(".com");
+
+        System.out.println(t);
+
+        //------------------------------------------------
+
+        String email = "CydeoSchool@gmail.com";
+
+        boolean isGmail = email.endsWith("gmail.com");
+
+        boolean isYahoo = email.endsWith("yahoo.com");
+
+        boolean isHotMail = email.endsWith("hotmail.com");
+
+        System.out.println("isGmail = " + isGmail);
+        System.out.println("isYahoo = " + isYahoo);
+        System.out.println("isHotMail = " + isHotMail);
+
+
+
 
     }
 }
