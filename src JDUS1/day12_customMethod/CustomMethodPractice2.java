@@ -13,7 +13,7 @@ public class CustomMethodPractice2 {
 
         System.out.println("-------------------------------------");
 
-        maxNum( -200, -20);
+        maxNum(-200, -20);
 
 
         System.out.println("-------------------------------------");
@@ -51,11 +51,10 @@ public class CustomMethodPractice2 {
     }
 
 
-
     //Create a method that can display the initials of a person  (firstName, lastName)
-    public static void initial(String firstName, String lastName){
+    public static void initial(String firstName, String lastName) {
 
-        String initial = firstName.charAt(0) +"." + lastName.charAt(0);
+        String initial = firstName.charAt(0) + "." + lastName.charAt(0);
 
         System.out.println("initial is: " + initial);
     }

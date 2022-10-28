@@ -3,6 +3,7 @@ package day14_forLoop;
 public class WarmupTasks {
 
     public static void main(String[] args) {
+
         String str3 = combine("java", "apple");
 
         System.out.println(str3);

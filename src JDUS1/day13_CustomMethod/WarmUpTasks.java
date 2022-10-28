@@ -23,7 +23,6 @@ public class WarmUpTasks {
         System.out.println("---------------------------------------------------");
 
     }
-
     public static void calculate(double num1, double num2, char mathOperator) {
 
 

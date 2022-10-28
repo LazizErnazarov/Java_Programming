@@ -29,8 +29,6 @@ public class ReturnMethodIntro {
         int result = n1 + n2;
         return result;
     }
-
-
     public static int square(int num) {
         int square = num * num;
         return square;
