@@ -8,12 +8,14 @@ public class ForLoopPractice2 {
 
         Scanner input = new Scanner(System.in);
 
+        int sum = 0;
         for (int i = 0; i < 10; i++) {
 
             System.out.println("Enter a number");
-            int num = input.nextInt();
+            sum += input.nextInt();
         }
 
+        System.out.println("sum = " + sum);
     }
 }
 
