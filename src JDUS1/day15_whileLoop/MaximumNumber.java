@@ -26,10 +26,4 @@ public class MaximumNumber {
 /*
 1. Write a program that can ask the user to enter a number for 5 times and returns the maximum number
 
-                Ex:
-                    str = "aabbbcccc"
-
-                    output:
-                        abc
-
  */
