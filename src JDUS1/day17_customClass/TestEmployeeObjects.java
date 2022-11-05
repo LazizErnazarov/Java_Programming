@@ -5,7 +5,7 @@ public class TestEmployeeObjects {
     public static void main(String[] args) {
 
         Employee employee1 = new Employee();
-        employee1.setInfo("Laziz",39,'M',"Java Developer",12000,"A707");
+        employee1.setInfo("Laziz",39,'M',"Java Developer",120000,"A707");
 
         Employee employee2 = new Employee();
         employee2.setInfo("Vaho",38,'M',"Back-end Developer",110000,"A708");
