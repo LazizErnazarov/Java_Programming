@@ -24,7 +24,7 @@ public class ArrayLiterals {
             String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
             //index:           0           1           2            3          4          5          6
 
-            int n = 1;
+            int n = 7;
 
             System.out.println(days[n - 1]);
 
