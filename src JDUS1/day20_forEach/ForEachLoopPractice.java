@@ -1,5 +1,7 @@
 package day20_forEach;
 
+import java.util.Arrays;
+
 public class ForEachLoopPractice {
 
     public static void main(String[] args) {
@@ -36,6 +38,32 @@ public class ForEachLoopPractice {
         System.out.println("max = " + max);
 
         System.out.println("min = " + min);
+
+        System.out.println("__________________________");
+
+        int[] a1 = {12, 20, 30,};
+        int[] a2 = {13, 50, 89};
+
+        int[] a3 = new int[a1.length + a2.length];
+
+        int k = 0;
+
+        for (int each : a1) {
+            a3[k++] = each;
+        }
+        for (int each : a2) {
+            a3[k++] = each;
+        }
+        System.out.println(Arrays.toString(a3));
+
+        System.out.println("_______________________");
+
+
+        String[] names = {"Mohammed Karimi", "Vasyl Dobriansky", "Gadir Ibrahimov", "Abidullah Rahimi"};
+
+        for (String each : names) {
+            System.out.println(each.charAt(0) + "." + each.charAt(each.lastIndexOf(" ") + 1));
+        }
 
     }
 }
