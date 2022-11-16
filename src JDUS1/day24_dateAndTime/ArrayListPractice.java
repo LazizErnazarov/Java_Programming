@@ -3,6 +3,8 @@ package day24_dateAndTime;
 public class ArrayListPractice {
 
 
+
+
 }
 /*
 1. Given the following arraylist of Employees:
