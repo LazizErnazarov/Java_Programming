@@ -7,9 +7,9 @@ public class IteratingMultiDimensionalArray {
 
     public static void main(String[] args) {
 
-        // index of elements:   0    1   2      0  1   2   3   4       0    1
-        int[][] arr2D = {{10, 20, 30}, {40, 50, 60, 70, 80}, {90, 100}};
-        //index of 1D Array:       0                 1                     2
+        // index of elements:    0   1   2      0  1   2   3   4     0    1
+               int[][] arr2D = {{10, 20, 30}, {40, 50, 60, 70, 80}, {90, 100}};
+        //index of 1D Array:        0                 1                 2
 
 
         for (int i = 0; i < arr2D.length; i++) { // i: index number of 1D array in arr2D

@@ -1,4 +1,4 @@
-package day08_Ternary_Switch;
+package day02_escapeSequences.day08_Ternary_Switch;
 
 public class SwitchStatementIntro3 {
 
