@@ -61,12 +61,39 @@ public class BulkOperation {
         System.out.println(employeeList);
 
         boolean hasAlena = employeeList.contains("Alena");
-        boolean hasAlenaGadir = employeeList.containsAll(Arrays.asList("Alena","Gadir"));
-        boolean hasMuhtarKuzatAli = employeeList.containsAll(Arrays.asList("Muhtar","Kuzat","Ali"));
+        boolean hasAlenaGadir = employeeList.containsAll(Arrays.asList("Alena", "Gadir"));
+        boolean hasMuhtarKuzatAli = employeeList.containsAll(Arrays.asList("Muhtar", "Kuzat", "Ali"));
 
         System.out.println("hasAlena = " + hasAlena);
         System.out.println("hasAlenaGadir = " + hasAlenaGadir);
         System.out.println("hasMuhtarKuzatAli = " + hasMuhtarKuzatAli);
+
+        System.out.println("_______________________________");
+
+        ArrayList<Integer> list1 = new ArrayList<>();
+        list1.addAll(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
+
+        list1.removeAll(Arrays.asList(8, 5));
+
+        System.out.println(list1);
+
+        System.out.println("_______________________________");
+
+        ArrayList<String> SDETs = new ArrayList<>();
+        SDETs.addAll(Arrays.asList("Alena", "Muhtar", "Gadir", "Ali", "Alena", "Muhtar", "Gadir"));
+
+        SDETs.retainAll(Arrays.asList("Alena", "Gadir"));
+
+        System.out.println(SDETs);
+
+        System.out.println("_______________________________");
+
+        ArrayList<String> GroceriesList = new ArrayList<>();
+        GroceriesList.addAll(Arrays.asList("Eggs", "Orange", "Tomato", "Salt", "Milk"));
+
+        GroceriesList.removeAll(Arrays.asList("Orange", "Tomato"));
+
+        System.out.println(GroceriesList);
 
     }
 }
