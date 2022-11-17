@@ -30,5 +30,7 @@ public class RemoveDuplicates {
         }
         names = nonDup;
         System.out.println(names);
+
+        
     }
 }
