@@ -2,6 +2,9 @@ package day22_arrayList;
 
 import utilities.ArraysUtility;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -17,6 +20,9 @@ public class Test {
         String[] students = {"Sumeya", "Ali", "Umran"};
 
         System.out.println(ArraysUtility.contains(students,"Kashyar"));
+
+
+
 
 
     }
