@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        System.out.println("akhmadjon");
 
+        System.out.println("Vaho");
     /*
         int wd= 0;
         String []days = {"sun","mon","wed","sat"};
