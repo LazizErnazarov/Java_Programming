@@ -9,6 +9,12 @@ public class Test {
         System.out.println(StaticInitializationBlock.c);
 
 
+        System.out.println("_____________________________");
+
+        System.out.println(AccessModifiers.publicData);
+        System.out.println(AccessModifiers.protectedData);
+        System.out.println(AccessModifiers.defaultData);
+        //System.out.println(AccessModifiers.privateData);
 
 
     }
