@@ -20,7 +20,7 @@ public class IPhone {
 
     public static boolean isExpensiveToFix = true;
 
-    public IPhone(String model, String color, double price) {
+    public IPhone(String model,String color, double price) {
         this.model = model;
         this.color = color;
         this.price = price;
@@ -48,6 +48,14 @@ public class IPhone {
         System.out.println("Operating System: " + OS);
     }
 
+    public void call(int i) {
+    }
+
+    public void text(int i) {
+    }
+
+    public void faceTime(int i) {
+    }
 }
 /*
 Attributes:
