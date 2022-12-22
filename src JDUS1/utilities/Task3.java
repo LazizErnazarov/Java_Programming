@@ -1,6 +1,6 @@
 package utilities;
 
-import day31_inharitance.ProtectedAccessModifier;
+import day31_MethodOverriding.ProtectedAccessModifier;
 
 public class Task3 extends ProtectedAccessModifier {
 
