@@ -46,7 +46,7 @@ public class StringIntro {
         System.out.println(t3);
 
 
-        System.out.println(t1 == t2);
+        System.out.println(t1.equals(t2));
         System.out.println(t3 == t2);
 
 

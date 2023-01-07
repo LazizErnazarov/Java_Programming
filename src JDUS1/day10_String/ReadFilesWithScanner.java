@@ -10,8 +10,19 @@ public class ReadFilesWithScanner {
 
         Scanner scan = new Scanner(Path.of("src/day10_String/Test.txt"));
 
+      /*  System.out.println(scan.nextLine());
         System.out.println(scan.nextLine());
         System.out.println(scan.nextLine());
-        System.out.println(scan.nextLine());
+
+       */
+        /*
+        System.out.println(scan.next());
+        System.out.println(scan.next());
+        System.out.println(scan.next());
+*/
+
+        // System.out.println(  scan.hasNext());
+
+        scan.close();
     }
 }
