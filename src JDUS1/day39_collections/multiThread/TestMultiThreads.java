@@ -7,6 +7,8 @@ public class TestMultiThreads {
         ThreadHelloWorld thread1 = new ThreadHelloWorld();
 
         thread1.start();
+
+
     }
 
 }
